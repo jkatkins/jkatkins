@@ -1,8 +1,64 @@
 body {
-  background-color: aliceblue;
+  background-color: rgb(147, 194, 235);
+  margin: 0;
 }
 
-img {
-  max-width: 25%;
-  max-height: 25%;
+container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  margin: 0;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.logo {
+  float: left;
+  max-width: 50px;
+  max-height: 50px;
+  padding: 2px;
+  position: relative;
+}
+
+nav {
+  float: right;
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+}
+
+nav li {
+  display: inline-block;
+  padding: 10px 0px;
+}
+
+nav a {
+  text-decoration: none;
+  color: gray;
+  padding: 26px;
+}
+
+nav a:hover {
+  color: black;
+  background-color: grey;
+}
+
+.page {
+  margin-top: 60px;
+  text-align: center;
+  color: black;
 }
