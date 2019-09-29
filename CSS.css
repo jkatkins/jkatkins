@@ -1,64 +1,142 @@
 body {
-  background-color: rgb(147, 194, 235);
+  background-color: rgb(235, 244, 255);
   margin: 0;
-}
-
-container {
-  width: 80%;
-  margin: 0 auto;
-}
-
-header {
-  margin: 0;
-  background-color: white;
-  position: fixed;
-  top: 0;
-  width: 100%;
 }
 
 .logo {
-  float: left;
-  max-width: 50px;
-  max-height: 50px;
-  padding: 2px;
-  position: relative;
-}
-
-nav {
-  float: right;
-}
-
-header::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-nav ul {
+  max-width: 15%;
+  max-height: 15%;
   margin: 0;
-  padding: 0;
-  list-style: none;
-  position: relative;
 }
 
-nav li {
-  display: inline-block;
-  padding: 10px 0px;
+.surround {
+  left: 47%;
+  top: 30%;
+  position: absolute;
 }
 
-nav a {
-  text-decoration: none;
-  color: gray;
-  padding: 26px;
+.fadeIn1 {
+  animation: fadeIn ease 3s;
+  -webkit-animation: fadeIn ease 3s;
+  -moz-animation: fadeIn ease 3s;
+  -o-animation: fadeIn ease 3s;
+  -ms-animation: fadeIn ease 3s;
 }
 
-nav a:hover {
-  color: black;
-  background-color: grey;
+h1 {
+  color: rgb(168, 168, 168);
+  font-size: 4vw;
+  padding: 5px;
+  padding-left: 0;
+  margin: 0;
+  animation: delay ease 3s;
+  -webkit-animation: delay ease 3s;
+  -moz-animation: delay ease 3s;
+  -o-animation: delay ease 3s;
+  -ms-animation: fadeIn ease 3s;
 }
 
-.page {
-  margin-top: 60px;
-  text-align: center;
-  color: black;
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes delay {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes delay {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes delay {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes delay {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes delay {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
