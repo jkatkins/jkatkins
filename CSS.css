@@ -56,28 +56,28 @@ body {
   -webkit-animation: delay ease 5.5s;
   -moz-animation: delay ease 5.5s;
   -o-animation: delay ease 5.5s;
-  -ms-animation: fadeIn ease 5.5s;
+  -ms-animation: delay ease 5.5s;
 }
 .projects {
   animation: delay ease 6.1s;
   -webkit-animation: delay ease 6.1s;
   -moz-animation: delay ease 6.1s;
   -o-animation: delay ease 6.1s;
-  -ms-animation: fadeIn ease 6.1s;
+  -ms-animation: delay ease 6.1s;
 }
 .github {
   animation: delay ease 6.7s;
   -webkit-animation: delay ease 6.7s;
   -moz-animation: delay ease 6.7s;
   -o-animation: delay ease 6.7s;
-  -ms-animation: fadeIn ease 6.7s;
+  -ms-animation: delay ease 6.7s;
 }
 .resume {
   animation: delay ease 7.3s;
   -webkit-animation: delay ease 7.3s;
   -moz-animation: delay ease 7.3s;
   -o-animation: delay ease 7.3s;
-  -ms-animation: fadeIn ease 7.3s;
+  -ms-animation: delay ease 7.3s;
 }
 .fades h1 {
   color: rgb(168, 168, 168);
