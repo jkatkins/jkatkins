@@ -9,6 +9,16 @@ body {
   margin: 0;
 }
 
+.res {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0;
+}
+
+.resdiv {
+  text-align: center;
+}
+
 .surround {
   left: 47%;
   top: 30%;
@@ -34,6 +44,19 @@ h1 {
   -moz-animation: delay ease 3s;
   -o-animation: delay ease 3s;
   -ms-animation: fadeIn ease 3s;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(168, 168, 168);
+  transition: all 0.2s ease-in-out;
+  line-height: 16px;
+}
+
+a:hover {
+  color: rgb(126, 126, 126);
+  font-size: 110%;
+  padding: 0px;
 }
 
 @keyframes fadeIn {
