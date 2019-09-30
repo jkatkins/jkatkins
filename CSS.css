@@ -1,9 +1,15 @@
 body {
   background-color: rgb(235, 244, 255);
   margin: 0;
+  text-align: center;
 }
 
 .logo {
+  width: 160px;
+  height: auto;
+}
+
+.yeet {
   width: 160px;
   height: auto;
 }
@@ -24,12 +30,12 @@ body {
   margin: 0;
   opacity: 0;
   top: 100px;
-  left: -43px;
-  animation: fadeInOut ease 2s;
-  -webkit-animation: fadeInOut ease 2s;
-  -moz-animation: fadeInOut ease 2s;
-  -o-animation: fadeInOut ease 2s;
-  -ms-animation: fadeInOut ease 2s;
+  left: 0px;
+  animation: fadeInOut ease 1.3s;
+  -webkit-animation: fadeInOut ease 1.3s;
+  -moz-animation: fadeInOut ease 1.3s;
+  -o-animation: fadeInOut ease 1.3s;
+  -ms-animation: fadeInOut ease 1.3s;
 }
 
 .resdiv {
@@ -40,44 +46,44 @@ body {
   left: 50%;
   top: 20%;
   position: absolute;
-  margin-top: -80px;
-  margin-left: -80px;
+  margin-top: -120px;
+  margin-left: -120px;
 }
 
 .fadeIn1 {
-  animation: delay ease 4s;
-  -webkit-animation: delay ease 4s;
-  -moz-animation: delay ease 4s;
-  -o-animation: delay ease 4s;
-  -ms-animation: delay ease 4s;
+  animation: delay ease 2.2s;
+  -webkit-animation: delay ease 2.2s;
+  -moz-animation: delay ease 2.2s;
+  -o-animation: delay ease 2.2s;
+  -ms-animation: delay ease 2.2s;
 }
 .about {
-  animation: delay ease 5.5s;
-  -webkit-animation: delay ease 5.5s;
-  -moz-animation: delay ease 5.5s;
-  -o-animation: delay ease 5.5s;
-  -ms-animation: delay ease 5.5s;
+  animation: delay ease 2.5s;
+  -webkit-animation: delay ease 2.5s;
+  -moz-animation: delay ease 2.5s;
+  -o-animation: delay ease 2.5s;
+  -ms-animation: delay ease 2.5s;
 }
 .projects {
-  animation: delay ease 6.1s;
-  -webkit-animation: delay ease 6.1s;
-  -moz-animation: delay ease 6.1s;
-  -o-animation: delay ease 6.1s;
-  -ms-animation: delay ease 6.1s;
+  animation: delay ease 2.8s;
+  -webkit-animation: delay ease 2.8s;
+  -moz-animation: delay ease 2.8s;
+  -o-animation: delay ease 2.8s;
+  -ms-animation: delay ease 2.8s;
 }
 .github {
-  animation: delay ease 6.7s;
-  -webkit-animation: delay ease 6.7s;
-  -moz-animation: delay ease 6.7s;
-  -o-animation: delay ease 6.7s;
-  -ms-animation: delay ease 6.7s;
+  animation: delay ease 3.1s;
+  -webkit-animation: delay ease 3.1s;
+  -moz-animation: delay ease 3.1s;
+  -o-animation: delay ease 3.1s;
+  -ms-animation: delay ease 3.1s;
 }
 .resume {
-  animation: delay ease 7.3s;
-  -webkit-animation: delay ease 7.3s;
-  -moz-animation: delay ease 7.3s;
-  -o-animation: delay ease 7.3s;
-  -ms-animation: delay ease 7.3s;
+  animation: delay ease 3.4s;
+  -webkit-animation: delay ease 3.4s;
+  -moz-animation: delay ease 3.4s;
+  -o-animation: delay ease 3.4s;
+  -ms-animation: delay ease 3.4s;
 }
 .fades h1 {
   color: rgb(168, 168, 168);
@@ -104,10 +110,10 @@ a:hover {
   0% {
     opacity: 0;
   }
-  45% {
+  33% {
     opacity: 1;
   }
-  55% {
+  60% {
     opacity: 1;
   }
   100% {
@@ -118,10 +124,10 @@ a:hover {
   0% {
     opacity: 0;
   }
-  45% {
+  33% {
     opacity: 1;
   }
-  55% {
+  60% {
     opacity: 1;
   }
   100% {
@@ -132,7 +138,10 @@ a:hover {
   0% {
     opacity: 0;
   }
-  50% {
+  33% {
+    opacity: 1;
+  }
+  60% {
     opacity: 1;
   }
   100% {
@@ -143,10 +152,10 @@ a:hover {
   0% {
     opacity: 0;
   }
-  45% {
+  33% {
     opacity: 1;
   }
-  55% {
+  60% {
     opacity: 1;
   }
   100% {
@@ -157,10 +166,10 @@ a:hover {
   0% {
     opacity: 0;
   }
-  45% {
+  33% {
     opacity: 1;
   }
-  55% {
+  60% {
     opacity: 1;
   }
   100% {
