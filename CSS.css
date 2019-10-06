@@ -93,14 +93,14 @@ body {
   margin: 0;
 }
 
-a {
+h1 a {
   text-decoration: none;
   color: rgb(168, 168, 168);
   transition: all 0.2s ease-in-out;
   line-height: 16px;
 }
 
-a:hover {
+h1 a:hover {
   color: rgb(126, 126, 126);
   font-size: 110%;
   padding: 0px;
